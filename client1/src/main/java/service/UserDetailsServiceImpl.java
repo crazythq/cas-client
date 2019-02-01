@@ -10,13 +10,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 认证类
- */
 public class UserDetailsServiceImpl implements UserDetailsService {
  
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        System.out.println("经过了认证类的请求");
+        System.out.println("UserDetailsServiceImpl");
         List<GrantedAuthority> grantAuths = new ArrayList<>();
         grantAuths.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
         grantAuths.add(new SimpleGrantedAuthority("ROLE_USER"));

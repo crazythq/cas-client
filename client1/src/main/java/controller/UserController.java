@@ -15,7 +15,6 @@ public class UserController {
 	@RequestMapping("/getUser")
 	public String getUser() {
 //		Map map = new HashMap();
-		// 获得用户名信息:
 		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 		log.info(authentication.toString());
 		String username = authentication.getName();
