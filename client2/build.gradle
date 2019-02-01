@@ -25,6 +25,8 @@ dependencies {
             "commons-logging:commons-logging:1.1.1"
     )
     testCompile("org.springframework:spring-test:${springframework_version}")
-//    testCompile("junit:junit:4.12")
+    providedCompile("javax.servlet:servlet-api:2.5")
+    providedCompile("javax.servlet.jsp:javax.servlet.jsp-api:2.3.1")
     runtime("jstl:jstl:1.2")
+//    testCompile("junit:junit:4.12")
 }
