@@ -6,7 +6,70 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="548ef66c-0b03-491e-acb6-2c90aed6916d" name="Default Changelist" comment="" />
+    <list default="true" id="548ef66c-0b03-491e-acb6-2c90aed6916d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/classes/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/classes/service/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/classes/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/cas-client-core-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-security-cas-4.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-security-config-4.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-security-core-4.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-security-web-4.2.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-4.3.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/login_error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/libs/exploded/client1-1.0-SNAPSHOT.war/user/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/out/production/classes/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/out/production/classes/service/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/out/production/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/out/production/resources/spring-security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/out/production/resources/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/cas-client-core-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-1.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-4.3.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/libs/exploded/client2-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client2/out/production/resources/log4j2.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -33,6 +96,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -43,28 +109,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="cas-client" type="f1a62948:ProjectNode" />
-                <item name=":client2" type="2d1252cf:ModuleNode" />
+                <item name="cas-client" type="2d1252cf:ModuleNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="cas-client" type="f1a62948:ProjectNode" />
-                <item name=":client2" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="cas-client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="cas-client" type="f1a62948:ProjectNode" />
-                <item name=":client2" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="cas-client" type="f1a62948:ProjectNode" />
-                <item name=":client2" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="cas-client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -78,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state>
               <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
             </state>
           </provider>
@@ -87,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client1/src/main/resources/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="304">
+              <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -96,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client1/src/main/java/service/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="286">
               <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
+            <state relative-caret-position="572">
               <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
             </state>
           </provider>
@@ -126,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client1/src/main/java/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="374">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,7 +205,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client2/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="440">
               <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
             </state>
           </provider>
@@ -195,6 +253,10 @@
       <replace>https://a.thqtest.com:8441</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -218,6 +280,7 @@
         <option value="$PROJECT_DIR$/client1/src/main/java/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/client1/src/main/java/controller/UserController.java" />
         <option value="$PROJECT_DIR$/client2/build.gradle" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -262,79 +325,6 @@
             <path>
               <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="client1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cas-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="client2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -366,10 +356,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cas-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +366,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cas-gradle-overlay-template-5.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -408,7 +394,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.client1">
+  <component name="RunManager" selected="Gradle.cas-client [clean]">
+    <configuration name="cas-client [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="client1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52-ssl" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="https://a.thqtest.com:8441/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -534,9 +539,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.cas-client [clean]" />
       <item itemvalue="Tomcat Server.client1" />
       <item itemvalue="Tomcat Server.client2" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.cas-client [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -550,24 +561,24 @@
       <updated>1548389116376</updated>
       <workItem from="1548389118949" duration="9629000" />
       <workItem from="1548745285531" duration="10394000" />
+      <workItem from="1548983909181" duration="3833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20023000" />
+    <option name="totallyTimeSpent" value="23856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902725" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50097275" side_tool="true" weight="0.2739872" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,14 +592,14 @@
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.329718" />
       <window_info anchor="bottom" id="Tail" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -692,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client1/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -710,47 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="81" lean-forward="true" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client1/src/main/java/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client1/src/main/java/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -766,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mt-ide/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-cas/4.2.1.RELEASE/8ce55a4c99107c574e02ccd4bff9af6f55856964/spring-security-cas-4.2.1.RELEASE-sources.jar!/org/springframework/security/cas/ServiceProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -780,10 +736,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/src/main/java/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/src/main/java/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client1/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client2/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client1/src/main/resources/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="304">
+          <caret line="58" column="62" lean-forward="true" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
         </state>
       </provider>
     </entry>
