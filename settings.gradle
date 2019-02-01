@@ -1,0 +1,4 @@
+rootProject.name = 'cas-client'
+include 'client1'
+include 'client2'
+

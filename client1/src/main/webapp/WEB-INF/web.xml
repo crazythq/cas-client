@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- 通过监听器 加载配置文件 -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:spring-security.xml</param-value>
+    </context-param>
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+
+    <!-- 解决post乱码 -->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>
+            org.springframework.web.filter.CharacterEncodingFilter
+        </filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>forceEncoding</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- spring security filter -->
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>
+            org.springframework.web.filter.DelegatingFilterProxy
+        </filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <servlet>
+        <servlet-name>springmvc</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!-- 指定加载的配置文件 ，通过参数contextConfigLocation加载 -->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:springmvc.xml</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+
+<!--
+
+    <listener>
+        <listener-class>org.jasig.cas.client.session.SingleSignOutHttpSessionListener</listener-class>
+    </listener>
+
+    <filter>
+        <filter-name>CAS Single Sign Out Filter</filter-name>
+        <filter-class>org.jasig.cas.client.session.SingleSignOutFilter</filter-class>
+        <init-param>
+            <param-name>casServerUrlPrefix</param-name>
+            <param-value>https://thqtest.com:8443/cas</param-value>
+        </init-param>
+    </filter>
+
+    &lt;!&ndash;该过滤器负责用户的认证工作&ndash;&gt;
+    <filter>
+        <filter-name>CAS Authentication Filter</filter-name>
+        &lt;!&ndash;<filter-class>org.jasig.cas.client.authentication.Saml11AuthenticationFilter</filter-class>&ndash;&gt;
+        <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
+        &lt;!&ndash;cas服务路径&ndash;&gt;
+        <init-param>
+            <param-name>casServerLoginUrl</param-name>
+            <param-value>https://thqtest.com:8443/cas/login</param-value>
+        </init-param>
+        &lt;!&ndash;客户端访问路径&ndash;&gt;
+        <init-param>
+            <param-name>serverName</param-name>
+            <param-value>https://a.thqtest.com:8441/index.jsp</param-value>
+        </init-param>
+        &lt;!&ndash;验证成功是否新创建会话(非必须)&ndash;&gt;
+        &lt;!&ndash;<init-param>
+            <param-name>renew</param-name>
+            <param-value>true</param-value>
+        </init-param>&ndash;&gt;
+
+        &lt;!&ndash;忽略路径表达式类型（可以配置实现UrlPatternMatcherStrategy类路径）(非必须)&ndash;&gt;
+        <init-param>
+            <param-name>ignoreUrlPatternType</param-name>
+            <param-value>com.carl.auth.sso.client.demo.SimpleUrlPatternMatcherStrategy</param-value>
+        </init-param>
+        &lt;!&ndash;忽略登录路径正则表达式(非必须)&ndash;&gt;
+        <init-param>
+            <param-name>ignorePattern</param-name>
+            <param-value>.*</param-value>
+        </init-param>
+    </filter>
+
+    &lt;!&ndash; 该过滤器配置负责对Ticket的校验工作&ndash;&gt;
+    <filter>
+        <filter-name>CAS Validation Filter</filter-name>
+        &lt;!&ndash;<filter-class>org.jasig.cas.client.validation.Saml11TicketValidationFilter</filter-class>&ndash;&gt;
+        <filter-class>org.jasig.cas.client.validation.Cas30ProxyReceivingTicketValidationFilter</filter-class>
+        &lt;!&ndash;cas服务路径&ndash;&gt;
+        <init-param>
+            <param-name>casServerUrlPrefix</param-name>
+            <param-value>https://thqtest.com:8443/cas</param-value>
+        </init-param>
+        &lt;!&ndash;客户端访问路径&ndash;&gt;
+        <init-param>
+            <param-name>serverName</param-name>
+            <param-value>https://a.thqtest.com:8441/index.jsp</param-value>
+        </init-param>
+        <init-param>
+            <param-name>redirectAfterValidation</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>useSession</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        &lt;!&ndash;
+        <init-param>
+            <param-name>acceptAnyProxy</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>proxyReceptorUrl</param-name>
+            <param-value>/sample/proxyUrl</param-value>
+        </init-param>
+        <init-param>
+            <param-name>proxyCallbackUrl</param-name>
+            <param-value>https://thqtest.com:8081/sample/proxyUrl</param-value>
+        </init-param>
+        &ndash;&gt;
+        <init-param>
+            <param-name>authn_method</param-name>
+            <param-value>mfa-duo</param-value>
+        </init-param>
+    </filter>
+
+    &lt;!&ndash;
+    HttpServletRequestWrapperFilter （可选）与 AssertionThreadLocalFilter（可选）
+    这2个过滤器的功能是一样的，所以放到一起来讲，当我们登录成功后，需要获取登录的用户信息（只能获取到用户名），就需要配置上面2个过滤器的其中一个。获取方式如下：
+
+    HttpServletRequestWrapperFilter ：
+
+        HttpServletRequest request2 = (HttpServletRequest) request;
+        // 从Cas服务器获取登录账户的用户名（2种方式）
+        String username1 = request2.getUserPrincipal().toString();
+        String username2 = request2.getRemoteUser();
+
+    AssertionThreadLocalFilter：
+
+        Assertion assertion = AssertionHolder.getAssertion();
+        String username3 = assertion.getPrincipal().getName();
+    &ndash;&gt;
+    <filter>
+        <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
+        <filter-class>org.jasig.cas.client.util.HttpServletRequestWrapperFilter</filter-class>
+    </filter>
+    &lt;!&ndash;<filter>
+        <filter-name>CAS Assertion Thread Local Filter</filter-name>
+        <filter-class>org.jasig.cas.client.util.AssertionThreadLocalFilter</filter-class>
+    </filter>&ndash;&gt;
+
+    <filter-mapping>
+        <filter-name>CAS Single Sign Out Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>CAS Validation Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>CAS Authentication Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>CAS HttpServletRequest Wrapper Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    &lt;!&ndash;<filter-mapping>
+        <filter-name>CAS Assertion Thread Local Filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>&ndash;&gt;
+-->
+
+    <welcome-file-list>
+        <welcome-file>
+            index.jsp
+        </welcome-file>
+    </welcome-file-list>
+
+</web-app>

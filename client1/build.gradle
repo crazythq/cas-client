@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.thq.demo'
+version '1.0-SNAPSHOT'
+
+// Uses JDK 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext.springframework_version = "4.3.1.RELEASE"
+ext.springsecurity_version = "4.2.1.RELEASE"
+ext.cas_version = "3.4.1"
+
+dependencies {
+    compile(
+            "org.springframework:spring-context:${springframework_version}",
+            "org.springframework:spring-web:${springframework_version}",
+            "org.springframework:spring-webmvc:${springframework_version}",
+//            "org.springframework.security:spring-security-web:${springsecurity_version}",
+            "org.springframework.security:spring-security-config:${springsecurity_version}",
+            "org.springframework.security:spring-security-cas:${springsecurity_version}",
+            "org.jasig.cas.client:cas-client-core:${cas_version}",
+            "log4j:log4j:1.2.17",
+            "commons-logging:commons-logging:1.1.1"
+    )
+    providedCompile("javax.servlet:javax.servlet-api:3.1.0")
+    testCompile("org.springframework:spring-test:${springframework_version}")
+//    testCompile("junit:junit:4.12")
+    runtime("jstl:jstl:1.2")
+}
